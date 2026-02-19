@@ -1,0 +1,57 @@
+{
+  "report_id": "64d2b7a8",
+  "timestamp": "2025-09-15T19:18:47.880715",
+  "target": "9594540041",
+  "summary": {
+    "total_sources": 3,
+    "entities_found": 0,
+    "connections_mapped": 0,
+    "confidence_level": 0.75
+  },
+  "findings": {
+    "entities": [],
+    "connections": [],
+    "confidence_score": 0.75,
+    "processing_method": "python_fallback"
+  },
+  "timeline": [
+    {
+      "phase": "carrier_lookup",
+      "timestamp": "2025-09-15T19:18:47.873537",
+      "status": "completed"
+    },
+    {
+      "phase": "location_analysis",
+      "timestamp": "2025-09-15T19:18:47.873563",
+      "status": "completed"
+    },
+    {
+      "phase": "social_correlation",
+      "timestamp": "2025-09-15T19:18:47.873573",
+      "status": "completed"
+    }
+  ],
+  "chain_of_custody": [
+    {
+      "source": "carrier_lookup",
+      "timestamp": "2025-09-15T19:18:47.880743",
+      "hash": "1197af060887521a2a95a3f9b851657c9f92681727476441f290aa2f243fc732",
+      "method": "automated_collection"
+    },
+    {
+      "source": "location_analysis",
+      "timestamp": "2025-09-15T19:18:47.880774",
+      "hash": "000f65a859c5c374059c71c34778eb89dc7efe04464397d40bd0d847bddcbcd0",
+      "method": "automated_collection"
+    },
+    {
+      "source": "social_correlation",
+      "timestamp": "2025-09-15T19:18:47.880792",
+      "hash": "1955ebd0929e6ee1d2beb7e3d612bbb9326d490e58951871a399c7717ea3bc42",
+      "method": "automated_collection"
+    }
+  ],
+  "recommendations": [
+    "Moderate confidence - additional verification needed"
+  ]
+}

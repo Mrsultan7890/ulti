@@ -1,0 +1,9 @@
+colorama>=0.4.4
+asyncio
+pathlib
+hashlib
+json
+datetime
+subprocess
+socket
+random

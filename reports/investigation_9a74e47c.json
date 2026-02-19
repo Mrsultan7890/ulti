@@ -1,0 +1,63 @@
+{
+  "report_id": "9a74e47c",
+  "timestamp": "2025-09-15T19:16:49.231779",
+  "target": "khansalahuddin2025@gmail.com",
+  "summary": {
+    "total_sources": 3,
+    "entities_found": 1,
+    "connections_mapped": 0,
+    "confidence_level": 0.75
+  },
+  "findings": {
+    "entities": [
+      {
+        "type": "domain",
+        "value": "gmail.com",
+        "source": "domain_analysis"
+      }
+    ],
+    "connections": [],
+    "confidence_score": 0.75,
+    "processing_method": "python_fallback"
+  },
+  "timeline": [
+    {
+      "phase": "domain_analysis",
+      "timestamp": "2025-09-15T19:16:49.212400",
+      "status": "completed"
+    },
+    {
+      "phase": "breach_check",
+      "timestamp": "2025-09-15T19:16:49.212451",
+      "status": "completed"
+    },
+    {
+      "phase": "pattern_matching",
+      "timestamp": "2025-09-15T19:16:49.212467",
+      "status": "completed"
+    }
+  ],
+  "chain_of_custody": [
+    {
+      "source": "domain_analysis",
+      "timestamp": "2025-09-15T19:16:49.231813",
+      "hash": "bbbd553e90d23de4d370f91d4d879408f92eb9cc87ca77720a4ea888731a9e9d",
+      "method": "automated_collection"
+    },
+    {
+      "source": "breach_check",
+      "timestamp": "2025-09-15T19:16:49.231848",
+      "hash": "8fe2104a888a402f2d55aa5dd6f3b5be51c4ad54c9c0498231511b2559960365",
+      "method": "automated_collection"
+    },
+    {
+      "source": "pattern_matching",
+      "timestamp": "2025-09-15T19:16:49.231871",
+      "hash": "10f7dc71000b3010e05fccaceefa87c31b047d6d8151945df186d6d765f88914",
+      "method": "automated_collection"
+    }
+  ],
+  "recommendations": [
+    "Moderate confidence - additional verification needed"
+  ]
+}

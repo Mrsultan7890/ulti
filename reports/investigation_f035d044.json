@@ -1,0 +1,57 @@
+{
+  "report_id": "f035d044",
+  "timestamp": "2025-09-15T19:15:26.371730",
+  "target": "who_i_the_black_hat",
+  "summary": {
+    "total_sources": 3,
+    "entities_found": 0,
+    "connections_mapped": 0,
+    "confidence_level": 0.75
+  },
+  "findings": {
+    "entities": [],
+    "connections": [],
+    "confidence_score": 0.75,
+    "processing_method": "python_fallback"
+  },
+  "timeline": [
+    {
+      "phase": "username_search",
+      "timestamp": "2025-09-15T19:15:26.353812",
+      "status": "completed"
+    },
+    {
+      "phase": "profile_analysis",
+      "timestamp": "2025-09-15T19:15:26.353907",
+      "status": "completed"
+    },
+    {
+      "phase": "connection_mapping",
+      "timestamp": "2025-09-15T19:15:26.353948",
+      "status": "completed"
+    }
+  ],
+  "chain_of_custody": [
+    {
+      "source": "username_search",
+      "timestamp": "2025-09-15T19:15:26.371834",
+      "hash": "52f0b86a42c02d41e164d381ba90c138a60fbb1595c34e36903daa6340ac24d4",
+      "method": "automated_collection"
+    },
+    {
+      "source": "profile_analysis",
+      "timestamp": "2025-09-15T19:15:26.371916",
+      "hash": "a9d4b53c32cb67f13a0ce096b710ed266142c54ea8b900e69b1698947950c48d",
+      "method": "automated_collection"
+    },
+    {
+      "source": "connection_mapping",
+      "timestamp": "2025-09-15T19:15:26.371949",
+      "hash": "bdfdc04e095b3f02d53261a819e84b35b504877f40c51bab60c74d91d2ed1bf0",
+      "method": "automated_collection"
+    }
+  ],
+  "recommendations": [
+    "Moderate confidence - additional verification needed"
+  ]
+}
